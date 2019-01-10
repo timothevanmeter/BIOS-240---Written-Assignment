@@ -12,7 +12,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: rgba(0, 0, 255, 0.3); /* Blue with opacity */
+  background-color: rgba(0, 0, 255, 0.4); /* Blue with opacity */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -21,10 +21,11 @@
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
+  font-family: montserrat;
   font-size: 25px;
   color: #818181;
   display: block;
-  border: 1px solid #555;
+  border: 2px solid #555;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -34,7 +35,7 @@
 
 .sidenav a:active {
   background-color: #4CAF50;
-  color: white;
+  color: green;
 }
 
 
