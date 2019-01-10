@@ -31,6 +31,15 @@
   color: #f1f1f1;
 }
 
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul {
+  border: 1px solid #555;
+}
+
 /* Style page content */
 .main {
   margin-left: 160px; /* Same as the width of the sidebar */
