@@ -24,6 +24,7 @@
   font-size: 25px;
   color: #818181;
   display: block;
+  border: 1px solid #555;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -31,14 +32,12 @@
   color: #f1f1f1;
 }
 
-.active {
+.sidenav a:active {
   background-color: #4CAF50;
   color: white;
 }
 
-ul {
-  border: 1px solid #555;
-}
+
 
 /* Style page content */
 .main {
